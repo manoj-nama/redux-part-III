@@ -17,7 +17,6 @@ export const FetchUserStarted = () => ({
 });
 
 export const FetchUsers = () => (dispatch) => {
-  API_URL
   dispatch(FetchUserStarted());
   setTimeout(function() {
     const users = [
